@@ -1,10 +1,7 @@
 dependencies:
-  - name: matr-ingress-controller
-    version: ~1.0.0
-    repository: file://../matr-ingress-controller/_helm/matr-ingress-controller
-  - name: etcd-operator
-    version: ~1.0.0
-    repository: file://../etcd-operator
   - name: vault-operator
     version: ~1.0.0
     repository: file://../vault-operator
+  - name: matr-ingress-controller
+    version: ~1.0.0
+    repository: file://../matr-ingress-controller/_helm/matr-ingress-controller

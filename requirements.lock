@@ -1,0 +1,12 @@
+dependencies:
+- name: matr-ingress-controller
+  repository: file://../matr-ingress-controller/_helm/matr-ingress-controller
+  version: 1.0.2
+- name: etcd-operator
+  repository: file://../etcd-operator
+  version: 1.0.0
+- name: vault-operator
+  repository: file://../vault-operator
+  version: 1.0.0
+digest: sha256:6ed10981bab7a568be3536b34a75f43f9538f2e44e8365751b5218e9178a051f
+generated: 2018-09-04T15:52:52.6291937-05:00

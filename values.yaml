@@ -1,0 +1,14 @@
+global:
+  namespace: vault
+  ingress:
+    class: vault-nginx
+  cluster:
+    config:
+      namespace: cluster-config
+      configmap: cluster-config
+
+matr-ingress-controller:
+  config:
+    nodePort: 32100
+    scope:
+      limit: true
